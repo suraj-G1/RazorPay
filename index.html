@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RazorPay</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    
 </head>
 <body>
-    <!-- NavBar -->
-    <nav class="bg-deepBlue py-3">
+    <div class="w-full overflow-x-hidden">
+
+         <!-- NavBar -->
+        <nav class="bg-deepBlue py-3">
         <div class="relative  w-[1080px] mx-auto flex items-center justify-evenly">
               
             
@@ -88,11 +91,11 @@
 
         </div>
 
-    </nav>
+        </nav>
 
     <!-- Hero Section -->
 
-    <section class=" relative bg-deepBlue flex-col">
+        <section class=" relative bg-deepBlue flex-col">
 
         <div class="w-10/12 max-w-[1080px] flex flex-row relative justify-between items-center mx-auto ">
             <!-- Left Part -->
@@ -111,13 +114,13 @@
             </div>
         </div>
 
-        <div class="relative">
+        <div class="relative w-[102%]">
             <img src="./Images/hero-shape.svg " alt="" class="absolute w-[100%] object-fill left-0 right-0">
          </div> 
 
-    </section>
+        </section>
 
-    <section class="relative mt-[200px] overflow-hidden w-[100%]"> 
+        <section class="relative mt-[200px] overflow-hidden w-[100%]"> 
 
         <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" height="233" width="167"  class="absolute -top-[6rem] left-[6rem] inline-block -z-10">
         <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" height="233" width="167" class="absolute right-0 inline-block top-[2rem] rotate-180"> 
@@ -584,10 +587,10 @@
         </div>
 
 
-    </section>
+        </section>
 
 
-    <section class="bg-[url(./Images/feature-section-2BG.svg)] bg-no-repeat bg-cover mt-10 pt-[70px] pb-[20px] overflow-x-hidden">
+        <section class="bg-[url(./Images/feature-section-2BG.svg)] bg-no-repeat bg-cover mt-10 pt-[70px] pb-[20px] overflow-x-hidden">
 
         <div class="w-10/12 max-w-[1080px] pt-4 pb-[500px] mx-auto relative">
 
@@ -898,9 +901,9 @@
 
         </div>
 
-    </section>
+        </section>
 
-    <section class="relative bg-white">
+        <section class="relative bg-white">
         <div class="relative w-9.5/12 max-w-[1080px] mx-auto pt-4">
 
         <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" class="absolute w-[233px] left-[300px] -top-[6rem] z-[10]">
@@ -1000,11 +1003,11 @@
     </div>
 
 
-    </section>
+        </section>
 
 
 
-    <section class="w-full bg-[url(/Images/core-features-sectionBg.svg)] bg-no-repeat bg-cover mt-14 relative">
+        <section class="w-full bg-[url(/Images/core-features-sectionBg.svg)] bg-no-repeat bg-cover mt-14 relative">
 
         <div class="w-9/12 max-w-[1080px] mx-auto py-[250px]">
 
@@ -1106,9 +1109,42 @@
         </div>
 
 
-    </section>
+        </section>
+
+        <section class="w-full relative bg-[#f5f8fe] pt-40 pb-12 -mt-[200px] -z-[100]">
+
+            <div class="flex flex-row w-9/12 mx-auto gap-4 max-w-[1080px]">
+                <!-- Left Part -->
+                <div class="flex flex-col gap-4 align-middle justify-center max-w-[calc(100%-400px)]">
+                    <h2 class="font-mullish font-bold text-2xl leading-10 text-deepBlue">Join the 50,00,000 businesses using RazorPay</h2>
+                    <div class="w-6 h-1 bg-greenLight mx-auto"></div>
+                    <p class="font-mullish text-deepBlue opacity-80">We make it easier for you to focus on building great products while we work on simplyfying your
+                         payment.Become one of us by joining thousands of our happy users and simplify the online 
+                         payment experience for your customer</p>
+                    <p class=" font-mullish text-deepBlue opacity-80">Focus on your business we will handle the complexities of payment for you</p>
+                </div>
+
+                <!-- Right Part -->
+
+                <div class="h-[400px] w-[500px] relative overflow-y-hidden"> 
+                    <div style="background:linear-gradient(180deg,#f4f8ff,#fff0 )"
+                    class="absolute w-full h-[150px] top-0 z-50">
+
+                    </div>
+
+                    <img src="Images/comanies.png" alt="" loading="lazy" class="moveImage overflow-y-hidden absolute">
+                    <div style="background:linear-gradient(0deg,#f4f8ff,#fff0 ) "
+                    class="absolute w-full h-[150px] bottom-0 z-50">
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
     
+
+    </div>
+   
 
     <script>
         feather.replace();

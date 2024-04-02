@@ -1,3 +1,16 @@
 .featureCard2{
     border:1px solid grey;
 }
+.moveImage{
+    
+    animation: 10s infinite linear moveCompany;
+}
+@keyframes moveCompany{
+    0%{
+        top:0;
+    }
+    100%{
+        top:-40%;
+    }
+
+} 
