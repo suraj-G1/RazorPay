@@ -14,7 +14,7 @@ module.exports = {
         grayText:"#818597",
         lightGray:"#e2e2e2",
         grayBlue:"#344a6c",
-        deepBlueHead:"#a62fs6",
+        deepBlueHead:"#a62f56",
         gray2:"525a76",
 
       },
