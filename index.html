@@ -13,8 +13,8 @@
     <div class="w-full overflow-x-hidden">
 
          <!-- NavBar -->
-        <nav class="bg-deepBlue py-3">
-        <div class="relative  w-[1080px] mx-auto flex items-center justify-evenly">
+        <nav class="bg-deepBlue py-3 ">
+        <div class="relative  max-w-[1080px] w-11/12 mx-auto flex items-center justify-around">
               
             
             <!-- Logo -->
@@ -22,49 +22,50 @@
                 <img src="Images/logo-image.png" alt="Logo" width="125px" height="80px" >
             </a>
 
-            <ul class="flex gap-6">
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+            <ul class=" flex gap-6">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 
+                relative group hidden lg:block">
                     <a href="#">Payment</a>
-                    <div class="absolute w-full h-1 bg-lighBlue500 hidden group-hover:block transition-all duration-300">
+                    <div class="absolute w-full h-[2px] bg-lighBlue500 hidden group-hover:block transition-all duration-300">
 
                     </div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group hidden lg:block">
                     <a href="#">Banking</a>
-                    <div class="absolute w-full h-1 bg-lighBlue500 hidden group-hover:block transition-all duration-300">
+                    <div class="absolute w-full h-[2px] bg-lighBlue500 hidden group-hover:block transition-all duration-300">
 
                     </div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group hidden lg:block">
                     <a href="#">Corporate Card</a>
                     
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group  hidden lg:block">
                     <a href="#">Payroll</a>
                     
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group hidden lg:block">
                     <a href="#">Resources</a>
-                    <div class="absolute w-full h-1 bg-lighBlue500 hidden group-hover:block transition-all duration-300">
+                    <div class="absolute w-full h-[2px] bg-lighBlue500 hidden group-hover:block transition-all duration-300">
 
                     </div>
                 </li>
 
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group hidden lg:block">
                     <a href="#">Support</a>
-                    <div class="absolute w-full h-1 bg-lighBlue500 hidden group-hover:block transition-all duration-300">
+                    <div class="absolute w-full h-[2px] bg-lighBlue500 hidden group-hover:block transition-all duration-300">
 
                     </div>
                 </li>
 
-                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group ">
+                <li class="text-white font-mullish py-7 hover:text-lightBlue300 cursor-pointer transition-all duration-300 relative group hidden lg:block">
                     <a href="#">Pricing</a>
-                    <div class="absolute w-full h-1 bg-lighBlue500 hidden group-hover:block transition-all duration-300">
+                    <div class="absolute w-full h-[2px] bg-lighBlue500 hidden group-hover:block transition-all duration-300">
 
                     </div>
                 </li>
@@ -72,14 +73,30 @@
 
             </ul>
 
-            <div class="flex space-x-6">
-                <img src="./Images/istockphoto.jpg" alt="IndianFlag"   width="50px"  class="w-12 h-8 px-2 py-1">
+            <div class="flex space-x-4 relative"  >
+                <img src="./Images/india-flag.svg" alt="IndianFlag"   width="50px"  class="w-12 h-8 px-2 py-1 hidden lg:block">
 
-                <button class=" px-5 font-mullish text-white border-2 rounded-md text-sm py-1 font-bold">
+                <button class=" px-5 font-mullish text-white border-2 rounded-md text-sm py-1 font-bold ">
                     Log In
                 </button>
 
-                <button class="flex gap-1 justify-between align-middle py-1 px-4 font-mullish text-lightBlue300 border-2  rounded  text-sm text-lightBlue-500 bg-white transition-all 200 hover:text-lighBlue500">
+                <button class="relative lg:hidden sm:block text-white flex justify-center items-start">
+
+                    <svg aria-hidden="true" data-blade-component="icon" height="20px" viewBox="0 0 20 15" width="15px" 
+                fill="none" class="Svgweb__StyledSvg-vcmjs8-0 ">
+                <path d="M2 12C2 11.4477 2.44772 11 3 11H21C21.5523 11 22 11.4477 22 12C22 12.5523 21.5523 13 21 13H3C2.44772 13 2 12.5523 2 12Z" 
+                clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" data-blade-component="svg-path"></path>
+                <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" 
+                clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" data-blade-component="svg-path"></path>
+                <path d="M2 18C2 17.4477 2.44772 17 3 17H21C21.5523 17 22 17.4477 22 18C22 18.5523 21.5523 19 21 19H3C2.44772 19 2 18.5523 2 18Z" 
+                clip-rule="evenodd" fill="currentColor" fill-rule="evenodd" data-blade-component="svg-path"></path></svg>
+
+                </button>
+                
+
+
+                <button class="lg:flex gap-1 justify-between align-middle py-1 px-4 font-mullish text-lightBlue300 border-2
+                  rounded  text-sm text-lightBlue-500 bg-white transition-all 200 hover:text-lighBlue500 hidden">
                     Sign Up
                     <svg class="h-5 w-8 "  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" 
                     stroke-linecap="round" 
@@ -97,7 +114,7 @@
 
         <section class=" relative bg-deepBlue flex-col">
 
-        <div class="w-10/12 max-w-[1080px] flex flex-row relative justify-between items-center mx-auto ">
+        <div class="w-10/12 max-w-[1080px] flex flex-col lg:flex-row relative justify-between items-center mx-auto ">
             <!-- Left Part -->
             <div  class="space-y-8">
                 <h1 class="text-white font-mullish  font-bold text-[40px] leading-1.2">Power Your finance, Grow your Business</h1>
@@ -108,14 +125,14 @@
             </div>
 
             <!-- Right Part -->
-            <img src="./Images/hero-illustration.jpg" alt="" class="max-w-[530px]">
+            <img src="./Images/hero-illustration.jpg" alt="" class="lg:max-w-[530px] md:max-w-[400px]">
             <div>
 
             </div>
         </div>
 
         <div class="relative w-[102%]">
-            <img src="./Images/hero-shape.svg " alt="" class="absolute w-[100%] object-fill left-0 right-0">
+            <img src="./Images/hero-shape.svg " alt="" class="absolute w-[100%]  object-fill left-0 right-0">
          </div> 
 
         </section>
@@ -127,12 +144,14 @@
         <div class="relative w-10/12 max-w-[1080px] mx-auto p-4">
 
             <!-- Heading -->
-            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold">Accept the payment with RazorPay payment suite</h2>
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold hidden lg:block">Accept the payment with RazorPay payment suite</h2>
+            <h2 class="font-mullish text-center text-2xl leading-[1.2] font-extrabold lg:hidden">Explore RazorPay payment suite</h2>
+
             <div class="w-5 h-1 bg-green-600 mx-auto mt-3 mb-3"></div>
             <!-- Content Box -->
-            <div class="w-full bg-white flex rounded-md p-12 py-12 min-h[520px] border items-center relative">
+            <div class="w-full bg-white flex flex-row rounded-md p-12 py-12 min-h[520px] border  items-center relative">
                 <!-- Left Part -->
-                <div class="flex flex-col justify-between  w-full">
+                <div class="flex flex-col justify-between   w-full">
                     <h3 class="font-mullish font-bold leading-10 max-w-[500px] text-[20px]">SuperCharge your Business with all the powerful
                         <span class="text-lightBlue300">Payment Gateway</span>
                     </h3>
@@ -166,7 +185,7 @@
                         </li>
                     </ul>
 
-                    <div class="flex flex-row items-center space-x-4 m-4">
+                    <div class="flex flex-row w-full items-center space-x-4 m-4">
                         <button 
                             class="bg-lightBlue300 w-fit  flex gap-2 text-white font-mullish hover:bg-lighBlue500 transition-all duration-200 px-4 py-2 rounded-md">
                             Sign Up Now 
@@ -174,22 +193,23 @@
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
                               </svg>
                         </button>
-                        <div class="flex items-center cursor-pointer group">
+                        <div class="flex items-center cursor-pointer group ">
                             <a href="#" class="text-lightBlue300 font-mullish font-bold group-hover:text-grayBlue transition-all duration-200">Know More</a>
                             <i data-feather="chevron-right" class="w-5 h-5 text-lighBlue500"></i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="w-full">
-                <img src="./Images/payment-suite.png" alt="" class="max-w-[500px] absolute right-8 top-[5rem] -bottom-0 w-[102%] overflow-visible">
+            <div class="w-full relative">
+                <img src="./Images/payment-suite.png" alt="" class="max-w-[500px]   absolute right-0  bottom-10
+                 overflow-visible hidden md:block md:w-[400px] lg:block lg:max-w-[500px]">
 
             </div>
 
 
 
 
-            <div class="grid grid-cols-3 w-full gap-4 mt-4">
+            <div class="grid lg:grid-cols-3  md:grid-cols-2 w-full gap-4 mt-4">
                 <!-- Card 1 -->
                 <div class="w-full min-h-[15rem] relative cursor-pointer">
                     <img src="./Images/payment-link-icon.svg" alt="" class="bg-lighBlue500 absolute top-3 right-3 w-12 h-12 rounded-full z-[8] hover:bg-lightBlue300 transition-all duration-200">
@@ -590,11 +610,14 @@
         </section>
 
 
-        <section class="bg-[url(./Images/feature-section-2BG.svg)] bg-no-repeat bg-cover mt-10 pt-[70px] pb-[20px] overflow-x-hidden">
+        <section class="bg-[url(./Images/feature-section-2BG.svg)] bg-no-repeat bg-cover mt-10 pt-[70px] pb-[0px] overflow-x-hidden">
 
         <div class="w-10/12 max-w-[1080px] pt-4 pb-[500px] mx-auto relative">
 
             <h2 class="font-mullish text-2xl leading-[1.7] font-bold text-white opacity-70 text-center">Explore Razorpay Business Banking</h2>
+
+            <!-- <h2 class="font-mullish text-2xl leading-[1.7] font-bold text-white opacity-70 text-center">Explore Razorpay Business Banking</h2> -->
+
             <div class="h-1 w-6 bg-green-600 mx-auto mt-4 mb-6"></div>
 
             <!-- Main Feature Box -->
@@ -605,9 +628,9 @@
                 
                 <!-- Content Box -->
 
-                <div class="w-full flex rounded-md p-12 py-12 min-h[520px] border border-slate-700 z-20 items-center relativ bg-deepBlue">
+                <div class="w-full flex lg:flex-row flex-col rounded-md p-12 py-12 min-h[520px] border border-slate-700 z-20 items-center relative bg-deepBlue">
                     <!-- Left Part -->
-                    <div class="flex flex-col justify-between  w-full gap-12">
+                    <div class="flex  flex-col justify-between  gap-12 md:w-full">
                         <h3 class="font-mullish font-bold leading-10 max-w-[500px] text-[28px] text-white">Manage your Company's finance with 
                             <img src="./Images/razorpayX.svg" alt="" loading="lazy" height="32px" width="168px" class="inline">
                             <span class="text-greenLight">Business Banking</span>
@@ -638,7 +661,7 @@
                             <button 
                                 class="relative bg-lightBlue300 w-fit  flex items-center md:pr-[90px] gap-2 text-white font-mullish hover:bg-lighBlue500 transition-all duration-200 px-4 py-2 rounded-md">
                                 Sign Up
-                                <div class=" absolute right-6 w-12 h-[50px]  bg-greenLight flex justify-center items-center skew-x-[20deg]">
+                                <div class=" absolute right-6 w-12 h-[50px]  bg-greenLight lg:flex justify-center items-center skew-x-[20deg]  hidden">
                                     <svg class="w-6 h-6 -skew-x-[15deg] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
                                       </svg>
@@ -656,14 +679,14 @@
                         </div>
                     </div>
                     <div class="w-full">
-                        <img src="./Images/buisness-banking.png" alt="" class="max-w-[500px] absolute top-1  w-full">
+                        <img src="./Images/buisness-banking.png" alt="" class="max-w-[500px] absolute top-1  w-full md:max-w-[350px] hidden lg:block">
         
                     </div>
                 </div>
 
                 <!-- Card -->
 
-                <div class="grid grid-cols-3 w-full gap-12 my-14 ">
+                <div class="grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 w-full gap-12 my-14 ">
 
                     <!-- Box1 -->
                     <div class="w-full min-h-[15rem] relative cursor-pointer">
@@ -865,7 +888,7 @@
                 </div>
 
                  <!-- Demo Div -->
-                <div class="flex justify-between items-center bg-deepBlue py-10 px-6 ">
+                <div class="flex justify-between lg:flex-row flex-col gap-2 items-center bg-deepBlue py-10 px-6 ">
                     <p class="text-white font-mullish pt-2 ml-10">
                         Checkout the live demo to learn how RazorpayX works.
 
@@ -873,10 +896,10 @@
                     </p>
 
                     <button 
-                                class="relative bg-lightBlue300 w-fit  flex items-center md:pr-[90px] gap-2 text-white font-mullish
+                                class="relative bg-lightBlue300 w-fir  flex items-center md:pr-[90px] gap-2 text-white font-mullish
                                  hover:bg-lighBlue500 transition-all duration-200 px-2 py-2 mr-10 rounded-md">
                                 Check Out the Demo
-                                <div class=" absolute right-6 w-12 h-[50px]  bg-greenLight flex justify-center items-center skew-x-[20deg]">
+                                <div class=" absolute right-6 w-12 h-[50px]  bg-greenLight lg:flex justify-center items-center skew-x-[20deg] hidden ">
                                     <svg class="w-6 h-6 -skew-x-[15deg] dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
                                       </svg>
@@ -904,12 +927,12 @@
         </section>
 
         <section class="relative bg-white">
-        <div class="relative w-9.5/12 max-w-[1080px] mx-auto pt-4">
+        <div class="relative w-9/12 max-w-[1080px] mx-auto pt-4">
 
         <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" class="absolute w-[233px] left-[300px] -top-[6rem] z-[10]">
         <img src="./Images/feature-section1-dottedrows.png" alt="" loading="lazy" class="absolute w-[233px] -top-[6rem] -right-[3.5rem] z-[10]">
 
-        <div class=" w-full grid grid-cols-3 gap-x-6 gap-y-10 relative z-[10] mt-4">
+        <div class=" w-full grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-6 gap-y-10 relative z-[10] mt-4">
 
             <!--  Item 1-->
 
@@ -1023,7 +1046,7 @@
                     Empower your business with all the right tools to accept online payment and provide the best customer Experience
                 </p>
             </div>
-            <div class="grid grid-cols-4 gap-6 mt-6 relative">
+            <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 mt-6 relative">
 
                 <!-- Card 1 -->
 
@@ -1120,9 +1143,9 @@
 
         <section class="w-full relative bg-[#f5f8fe] pt-40 pb-12 -mt-[200px] -z-[100]">
 
-            <div class="flex flex-row w-9/12 mx-auto gap-4 max-w-[1080px]">
+            <div class="relative flex lg:flex-row flex-col w-9/12 mx-auto gap-4 max-w-[1080px]">
                 <!-- Left Part -->
-                <div class="flex flex-col gap-4 align-middle justify-center max-w-[calc(100%-400px)]">
+                <div class="flex flex-col gap-4 align-middle justify-center lg:max-w-[calc(100%-400px)] w-full">
                     <h2 class="font-mullish font-bold text-2xl leading-10 text-deepBlue">Join the 50,00,000 businesses using RazorPay</h2>
                     <div class="w-6 h-1 bg-greenLight mx-auto"></div>
                     <p class="font-mullish text-deepBlue opacity-80">We make it easier for you to focus on building great products while we work on simplyfying your
@@ -1133,7 +1156,7 @@
 
                 <!-- Right Part -->
 
-                <div class="h-[400px] w-[500px] relative overflow-y-hidden"> 
+                <div class="h-[400px] max-w-[500px] w-[400px] relative overflow-y-hidden"> 
                     <div style="background:linear-gradient(180deg,#f4f8ff,#fff0 )"
                     class="absolute w-full h-[150px] top-0 z-50">
 
@@ -1166,23 +1189,29 @@
             
             <!-- Left Section -->
 
-            <button class="absolute w-[100px] h-[100px] rounded-full bg-[#f4f8ff] left-0 top-1/2 flex justify-center items-center">
+            <button class="absolute w-[100px] h-[100px] rounded-full bg-[#f4f8ff] left-0 top-1/2 lg:flex justify-center items-center hidden">
                 <div class="w-[65%] h-[65%] rounded-full bg-[#f4f8ff] flex justify-center items-center mix-blend-multiply">
                     <i data-feather="chevron-left" class="w-6 h-6 md:w-10 md:h-10 stroke-[5px] text-gray-400"></i>
+                    <!-- <svg class="w-6 h-6 rotate-180 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                      </svg> -->
 
                 </div>
             </button>
 
             <!-- Right Button -->
-            <button class="absolute w-[100px] h-[100px] rounded-full bg-[#f4f8ff]  top-1/2 right-0 flex justify-center items-center">
+            <button class="absolute w-[100px] h-[100px] rounded-full bg-[#f4f8ff]  top-1/2 right-0 lg:flex justify-center items-center hidden">
                 <div class="w-[65%] h-[65%] rounded-full bg-[#f4f8ff] flex justify-center items-center mix-blend-multiply">
-                    <i data-feather="chevron-right" class="w-6 h-6 md:w-10 md:h-10 stroke-[5px] text-gray-400"></i>
+                    <i data-feather="chevron-right" class="w-6 h-6 md:w-10 md:h-10 stroke-[5px]  text-gray-400"></i>
+                    <!-- <svg class="w-6 h-6 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                      </svg> -->
 
                 </div>
             </button>
 
             <!-- Main Content -->
-            <div class="flex flex-row max-w-[960px] items-center justify-evenly mx-auto my-20">
+            <div class="flex lg:flex-row flex-col max-w-[960px] items-center justify-evenly mx-auto my-20">
                 <!-- Left part -->
                 <img src="./Images/testimonial.jpg" alt="" class="rounded-xl" loading="lazy" height="320px" width="320px">
 
@@ -1228,15 +1257,15 @@
 
         <!-- CTA -->
 
-        <section class="bg-[url(/Images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[570px] pt-[130px]">
+        <section class="bg-[url(/Images/CTABg.svg)] w-full h-full bg-no-repeat bg-cover relative ctaSection min-h-[570px] pt-[150px]">
 
             <!-- Main Content Box -->
 
-            <div class="max-w-[1080px] w-10/12 mx-auto relative flex justify-between items-center space-x-20 ">
+            <div class="max-w-[1080px] w-9/12 mx-auto relative flex justify-between items-center lg:space-x-20 lg:justify-start">
 
                 <!-- Left Part -->
-                <div class="flex gap-5 flex-col">
-                    <h2 class="font-mullish font-bold text-2xl text-white">
+                <div class="flex gap-5 flex-col ">
+                    <h2 class="font-mullish font-bold lg:text-2xl text-xl text-white min-w-[450px] ">
                         SuperCharge your business with RazorPay
 
                     </h2>
@@ -1247,7 +1276,7 @@
                         Sign up now to experience the future of all payment and offer<br> your customer best Checkout experience
 
                     </p>
-                    <ul class="grid grid-cols-3 gap-1 text-white">
+                    <ul class="grid lg:grid-cols-3 grid-cols-1 gap-1 text-white">
                         <li class="flex  space-x-2 font-mullish">
                             <i data-feather="check" class="text-greenLight"></i>
                             <span>Quick onboarding</span>
@@ -1278,7 +1307,7 @@
                 </div>
 
                 <!-- Right Side -->
-                <img src="./Images/ctaImg.svg" alt="" width="220px" height="232px">
+                <img src="./Images/ctaImg.svg" alt="" width="220px" height="232px" class="hidden lg:block pb-8">
 
             </div>
 
@@ -1291,7 +1320,7 @@
         <section class="relative bg-[#f5f8fe] py-16">
             <!-- Main Div -->
 
-            <div class="grid grid-cols-4 w-10/12 max-w-[1080px] mx-auto gap-[50px] mb-10">
+            <div class="grid lg:grid-cols-4  sm:grid-cols-2 w-9/12 max-w-[1080px] mx-auto gap-[50px] mb-10">
                 <!-- First div -->
                 <div class="flex flex-col gap-6">
                     <img src="./Images/razorpayX.svg" alt="" class="bg-deepBlue p-2 rounded-md w-full h-[40px]">
@@ -1326,7 +1355,10 @@
                         
                                 <button class="absolute flex items-center justify-center gap-1  bg-white right-0 -bottom-[22px]">
                                     <p class="font-mullish text-lightBlue300 text-sm">Subscribe</p>
-                                    <i data-feather="chevron-left" class="w-5 h-5 z-auto"></i>
+                                    <!-- <i data-feather="chevron-left" class="w-5 h-5 z-auto"></i> -->
+                                    <svg class="w-5 h-5  dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7"/>
+                                      </svg>
 
                                 </button>
                             
